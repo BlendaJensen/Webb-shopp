@@ -13,40 +13,33 @@ header {
     justify-content: flex-start;
     background-color: #325E67;
 }
+
 nav {
     display: flex;
     justify-content: flex-end;
     background-color: #325E67;
 }
+
+h3 {
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+}
+h4 {
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+}
+
 ul {
     padding-right: 5%;
 }
 
 main {
     background-color: #FFC6D6;
-}
-
-h2 {
-    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
     display: flex;
-    justify-content: center;
+
 }
 
-.huvudprodukt {
-    background-color: #6BC5C3;
-    float: center;
-    width: 50%;
-    margin-left: 25%;
-    margin-bottom: 1%;
-}
 div {
     display: flex;
-    justify-content: center;
-}
-.products {
-    background-color: #6BC5C3;
-    float: center
-    width 10;
+    flex-direction: column;
 }
 
 footer {
@@ -54,8 +47,4 @@ footer {
     justify-content: space-between;
     font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
     
-}
-
-p {
-    color: #D30001;
 }
