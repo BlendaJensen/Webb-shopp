@@ -27,11 +27,15 @@ main {
     display: flex;
 }
 
-div {
-    background-color: #6BC5C3;
+.Loggain {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+div {
+    height: 30%;
+    width: 40%;
 }
 
 footer {
