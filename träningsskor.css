@@ -41,6 +41,11 @@ div {
     display: flex;
     flex-direction: column;
 }
+.information {
+    border: 3px #FFC6D6;
+    background-color: #d30001;
+    height: 20%;
+}
 
 footer {
     display: flex;
