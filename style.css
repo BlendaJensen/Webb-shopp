@@ -11,12 +11,12 @@ h1 {
 header {
   display: flex;
   justify-content: flex-start;
-  background-color: #325e67;
+  background-color: #a3d5c6;
 }
 nav {
   display: flex;
   justify-content: flex-end;
-  background-color: #325e67;
+  background-color: #a3d5c6;
 }
 ul {
   padding-right: 5%;
@@ -49,9 +49,20 @@ h2 {
   display: flex;
   justify-self: space-between;
   flex-wrap: wrap;
-  gap: 5%;
+  gap: 8%;
   justify-content: center;
   
+}
+.bil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.productEtt {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 footer {

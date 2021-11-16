@@ -1,36 +1,42 @@
 body {
-    background-color: #6BC5C3;
+  background-color: #6bc5c3;
 }
 
 h1 {
-    color: #D30001;
-    padding: 0%;
-    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+  color: #d30001;
+  padding: 0%;
+  font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
 }
 
 header {
-    display: flex;
-    justify-content: flex-start;
-    background-color: #325E67;
+  display: flex;
+  justify-content: flex-start;
+  background-color: #a3d5c6;
 }
+
 nav {
-    display: flex;
-    justify-content: flex-end;
-    background-color: #325E67;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #a3d5c6;
 }
 ul {
-    padding-right: 5%;
+  padding-right: 5%;
 }
 
 main {
-    background-color: #FFC6D6;
-    display: flex;
+  background-color: #ffc6d6;
+  display: flex;
 }
 
 .loggMed {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: auto;
+}
 
+h3 {
+  text-align: center;
 }
 
 input[type="text"],
@@ -43,7 +49,7 @@ input[type="email"] {
 
 input[type="submit"] {
   border: 3px solid #333;
-  background-color: #FF1C5B;
+  background-color: #ff1c5b;
   border-radius: 5px;
   padding: 10px 2em;
   font-weight: bold;
@@ -54,14 +60,12 @@ input[type="submit"]:hover {
   background-color: #333;
 }
 
-
 footer {
-    display: flex;
-    justify-content: space-between;
-    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
-    
+  display: flex;
+  justify-content: space-between;
+  font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
 }
 
 p {
-    color: #D30001;
+  color: #d30001;
 }

@@ -11,13 +11,13 @@ h1 {
 header {
     display: flex;
     justify-content: flex-start;
-    background-color: #325E67;
+    background-color: #a3d5c6;
 }
 
 nav {
     display: flex;
     justify-content: flex-end;
-    background-color: #325E67;
+    background-color: #a3d5c6;
 }
 
 h3 {
