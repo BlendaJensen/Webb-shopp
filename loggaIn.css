@@ -27,6 +27,7 @@ ul {
 }
 
 main {
+  margin-top: 1%;
   background-color: #ffc6d6;
   display: flex;
 }
@@ -58,6 +59,7 @@ input[type="submit"]:hover {
 
 a {
   text-decoration: none;
+  color: #000;
 }
 
 .text {
@@ -90,7 +92,10 @@ h3 {
 }
 
 footer {
+  padding-right: 1%;
+  padding-left: 1%;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   font-family: Consolas,monaco,monospace; 
 }

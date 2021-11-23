@@ -19,6 +19,12 @@ nav {
     display: flex;
     justify-content: flex-end;
     background-color: #a3d5c6;
+    font-family: Consolas, monaco, monospace;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
 h3 {
@@ -33,15 +39,17 @@ ul {
 }
 
 main {
+    margin-top: 1%;
     background-color: #FFC6D6;
     display: flex;
-
 }
 
 button {
-    width: 10%;
+    width: 15%;
+    height: 5%;
     background-color: #D30001;
-    border: #D30001;
+    border: solid black 2px;
+    border-radius: 9%;
     color: #fff;
     font-family: Consolas,monospace;     
 }
@@ -55,10 +63,14 @@ div {
     padding-left: 3%;
     padding-right: 3%;
     padding-top: 4%;
+    font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
 }
 
 footer {
+    padding-right: 1%;
+    padding-left: 1%;
     display: flex;
     justify-content: space-between;
-    font-family: Consolas,monaco,monospace;         
+    flex-wrap: wrap;
+    font-family: Consolas,monaco,monospace; 
 }

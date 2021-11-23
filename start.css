@@ -17,19 +17,19 @@ body {
     display: flex;
     justify-content: flex-end;
     background-color: #a3d5c6;
-    font-family: Consolas,monospace;     
+    font-family: Consolas,monospace; 
+    padding-right: 2%;    
   }
 
 a {
   text-decoration: none;
+  color: #000;
 }
 
-  ul {
-    padding-right: 5%;
-  }
   
 main {
-    background-color: #ffc6d6;
+    background-color: #FFC6D6;
+    margin-top: 1%;
 }
 
 .innehåll {
@@ -37,6 +37,8 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 5%;
+    padding-bottom: 30%;
 }
 
 h2 {
@@ -46,12 +48,14 @@ h2 {
 .text {
     width: 40%;
     font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif; 
-
 }
 
   footer {
+    padding-right: 1%;
+    padding-left: 1%;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     font-family: Consolas,monaco,monospace; 
 }
   
