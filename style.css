@@ -5,8 +5,11 @@ body {
 h1 {
   color: #d30001;
   padding: 0%;
+  padding-left: 1%;
   font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
 }
+
+
 
 header {
   display: flex;
@@ -17,6 +20,8 @@ nav {
   display: flex;
   justify-content: flex-end;
   background-color: #a3d5c6;
+  font-family: Consolas,monaco,monospace; 
+
 }
 ul {
   padding-right: 5%;
@@ -24,6 +29,7 @@ ul {
 
 main {
   background-color: #ffc6d6;
+  padding-top: 1%;
 }
 
 h2 {
@@ -32,12 +38,21 @@ h2 {
   justify-content: center;
 }
 
+p {
+  color: black;
+}
+
+h4 {
+  color: black;
+}
+
 .huvudprodukt {
   background-color: #6bc5c3;
   float: center;
   width: 50%;
   margin-left: 25%;
   margin-bottom: 1%;
+  font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif; 
 }
 
 .bild {
@@ -51,8 +66,9 @@ h2 {
   flex-wrap: wrap;
   gap: 8%;
   justify-content: center;
-  
+  font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif;   
 }
+
 .bil {
   display: flex;
   justify-content: center;
@@ -68,9 +84,5 @@ h2 {
 footer {
   display: flex;
   justify-content: space-between;
-  font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
-}
-
-p {
-  color: #d30001;
+  font-family: Consolas,monaco,monospace; 
 }

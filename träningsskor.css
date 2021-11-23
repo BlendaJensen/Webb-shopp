@@ -6,6 +6,7 @@ h1 {
     color: #D30001;
     padding: 0%;
     font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    padding-left: 1%;
 }
 
 header {
@@ -37,19 +38,27 @@ main {
 
 }
 
+button {
+    width: 10%;
+    background-color: #D30001;
+    border: #D30001;
+    color: #fff;
+    font-family: Consolas,monospace;     
+}
+
 div {
     display: flex;
     flex-direction: column;
 }
+
 .information {
-    border: 3px #FFC6D6;
-    background-color: #d30001;
-    height: 20%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 4%;
 }
 
 footer {
     display: flex;
     justify-content: space-between;
-    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
-    
+    font-family: Consolas,monaco,monospace;         
 }

@@ -1,0 +1,57 @@
+body {
+    background-color: #6bc5c3;
+  }
+  
+  h1 {
+    color: #d30001;
+    padding: 0%;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    padding-left: 1%;
+  }
+  header {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #a3d5c6;
+  }
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #a3d5c6;
+    font-family: Consolas,monospace;     
+  }
+
+a {
+  text-decoration: none;
+}
+
+  ul {
+    padding-right: 5%;
+  }
+  
+main {
+    background-color: #ffc6d6;
+}
+
+.innehåll {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+}
+
+.text {
+    width: 40%;
+    font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+
+}
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    font-family: Consolas,monaco,monospace; 
+}
+  
