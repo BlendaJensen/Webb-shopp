@@ -3,7 +3,6 @@ body {
 }
 
 h1 {
-    color: #D30001;
     padding: 0%;
     padding-left: 1%;
     font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
@@ -46,6 +45,7 @@ main {
     background-color: #FFC6D6;
     display: flex;
     margin-top: 1%;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
 }
 
 div {
@@ -62,7 +62,7 @@ div {
 button {
     width: 15%;
     height: 6%;
-    background-color: #D30001;
+    background-color: black;
     border: solid black 2px;
     border-radius: 9%;
     color: #fff;

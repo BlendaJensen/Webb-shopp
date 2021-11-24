@@ -3,7 +3,6 @@ body {
 }
 
 h1 {
-  color: #d30001;
   padding: 0%;
   font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
   padding-left: 1%;
@@ -45,8 +44,8 @@ input[type="email"] {
 }
  
 input[type="submit"] {
-  border: 3px solid #333;
-  background-color: #ff1c5b;
+  border: 3px solid #000;
+  background-color: #000;
   border-radius: 5px;
   padding: 10px 2em;
   font-weight: bold;
@@ -54,7 +53,7 @@ input[type="submit"] {
 }
  
 input[type="submit"]:hover {
-  background-color: #333;
+  background-color: #000;
 }
 
 a {
